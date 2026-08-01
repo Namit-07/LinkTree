@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply min-h-screen bg-[#EAF1F4] text-[#1D2B3A] antialiased;
+  background-color: #EAF1F4;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 31px,
+    #C6D9E1 31px,
+    #C6D9E1 32px
+  );
+  background-position: 0 90px;
+}
